@@ -52,6 +52,9 @@ import breedFrenchBulldog from "@/assets/breed-french-bulldog.png";
 import breedDachshund from "@/assets/breed-dachshund.jpg";
 import breedCockerSpaniel from "@/assets/breed-cocker-spaniel.jpg";
 import breedLabradorNew from "@/assets/breed-labrador-new.jpg";
+import breedCavalier from "@/assets/breed-cavalier.png";
+import breedRottweiler from "@/assets/breed-rottweiler.png";
+import breedBlackGermanShepherd from "@/assets/breed-black-german-shepherd.jpg";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
@@ -567,6 +570,21 @@ const puppies = [
     img: breedToyPoodle,
     desc: "Brilliant, elegant, and hypoallergenic — one of the most intelligent breeds.",
   },
+  {
+    breed: "Cavalier King Charles Spaniel",
+    img: breedCavalier,
+    desc: "Gentle, graceful, and sweet-tempered — the ultimate companion lap dog.",
+  },
+  {
+    breed: "Rottweiler",
+    img: breedRottweiler,
+    desc: "Loyal, loving, and confident guardian — a devoted family protector.",
+  },
+  {
+    breed: "Black German Shepherd",
+    img: breedBlackGermanShepherd,
+    desc: "Strikingly beautiful, intelligent, and alert — a rare and loyal companion.",
+  },
 ];
 
 function FeaturedPuppies() {
@@ -647,6 +665,9 @@ const breeds = [
   { name: "Siberian Husky", img: breedHusky, desc: "Energetic, social, and strikingly beautiful." },
   { name: "Pomeranian", img: breedPom, desc: "Tiny, fluffy, and bursting with confidence." },
   { name: "Maltipoo", img: breedMaltipoo, desc: "Playful, hypoallergenic, and extremely affectionate." },
+  { name: "Cavalier King Charles Spaniel", img: breedCavalier, desc: "Gentle, graceful, and sweet-tempered companion." },
+  { name: "Rottweiler", img: breedRottweiler, desc: "Loyal, loving, and confident family guardian." },
+  { name: "Black German Shepherd", img: breedBlackGermanShepherd, desc: "Intelligent, protective, and striking all-black coat." },
 ];
 
 function Breeds() {
