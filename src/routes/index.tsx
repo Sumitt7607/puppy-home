@@ -58,6 +58,10 @@ import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
 import testimonial5 from "@/assets/testimonial-5.jpg";
 import testimonial6 from "@/assets/testimonial-6.jpg";
+import testimonial7 from "@/assets/testimonial-7.jpg";
+import testimonial8 from "@/assets/testimonial-8.jpg";
+import testimonial9 from "@/assets/testimonial-9.jpg";
+import testimonial10 from "@/assets/testimonial-10.jpg";
 
 const PHONE = "+91 92051 22992";
 const PHONE_TEL = "+919205122992";
@@ -793,6 +797,34 @@ const testimonials = [
     image: testimonial6,
     rating: 5,
     text: "We got our adorable little Dachshund from The Puppy House and the entire experience was seamless. The puppy arrived healthy, well-fed, and already socialised. Our whole family is in love!",
+  },
+  {
+    name: "Priya Kapoor",
+    location: "Lajpat Nagar, Delhi",
+    image: testimonial7,
+    rating: 5,
+    text: "I fell in love with my fluffy black Pomeranian the moment I held him! The Puppy House team was so warm and patient with all my questions. He came with all vaccination papers and a full diet plan.",
+  },
+  {
+    name: "Arjun Malhotra",
+    location: "Greater Kailash, Delhi",
+    image: testimonial8,
+    rating: 5,
+    text: "My tiny Toy Poodle is absolutely brilliant and hypoallergenic — perfect for our apartment. The staff helped me choose the right breed for my lifestyle. Couldn't be happier with this little guy!",
+  },
+  {
+    name: "Shreya Nair",
+    location: "Janakpuri, Delhi",
+    image: testimonial9,
+    rating: 5,
+    text: "My Chow Chow puppy is the fluffiest, most regal dog I've ever seen. The Puppy House made the process so smooth — transparent pricing, healthy pup, and genuine post-adoption support.",
+  },
+  {
+    name: "Manav Bhatia",
+    location: "Pitampura, Delhi",
+    image: testimonial10,
+    rating: 5,
+    text: "Got my Golden Retriever from The Puppy House and he is everything I hoped for — gentle, playful, and absolutely healthy. The team followed up even after delivery to ensure he was settling in well.",
   },
 ];
 
