@@ -83,6 +83,11 @@ export const Route = createFileRoute("/")({
         content:
           "The Puppy House offers healthy, vaccinated, vet-checked puppies in Delhi NCR. Find your perfect companion — Golden Retriever, Labrador, Husky, Shih Tzu and more. Home delivery available.",
       },
+      {
+        name: "keywords",
+        content:
+          "puppies for sale, buy puppies online, puppy store near me, dog shop near me, shih tzu puppies for sale, golden retriever puppies for sale, labrador puppies for sale, toy poodle puppies for sale, pomeranian puppies for sale, healthy puppies for sale, local dog breeders, shih tzu price in Delhi, golden retriever price Delhi, KCI registered puppies, buy small dogs, toy puppies for sale, puppies for sale in Delhi NCR, dog store in Gurgaon, puppy shop Noida, buy dogs online, beagle puppies for sale, pug puppies for sale, maltipoo puppies for sale, chihuahua puppies for sale, german shepherd puppies for sale, husky puppies for sale, small dog breeds for sale, toy breed puppies, teacup puppies for sale, dog breeders near me, KCI registered dog breeder, original breed puppy store, maltipoo price in Delhi, toy poodle price Delhi, pomeranian price in Delhi, beagle puppy price, home raised puppies, vet checked puppies, puppy price in Delhi NCR, buy shih tzu puppy, buy small puppies, best puppy store Delhi NCR, french bulldog puppies for sale, cocker spaniel price Delhi, rottweiler puppies Delhi NCR, beagle price in Delhi, husky price Delhi, dog price in India, KCI certified puppies Delhi, buy puppies Gurgaon, buy puppies Noida, trusted dog breeders Delhi, imported breed puppies Delhi, samoyed puppies for sale Delhi, bichon frise price Delhi, maltese puppy for sale Delhi, best dog breeders Gurgaon, chihuahua price Delhi NCR, pug price in Delhi, german shepherd price Delhi",
+      },
       { property: "og:title", content: "The Puppy House — Premium Puppies in Delhi NCR" },
       {
         property: "og:description",
