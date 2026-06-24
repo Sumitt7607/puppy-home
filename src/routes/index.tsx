@@ -42,6 +42,8 @@ import breedPug from "@/assets/breed-pug.jpg";
 import breedBeagle from "@/assets/breed-beagle.jpg";
 import breedHusky from "@/assets/breed-husky.jpg";
 import breedPom from "@/assets/breed-pomeranian.jpg";
+import breedMaltipoo from "@/assets/breed-maltipoo.png";
+import breedGoldenFixed from "@/assets/breed-golden-fixed.png";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
@@ -474,7 +476,7 @@ function FloatingPaws() {
 const puppies = [
   {
     breed: "Golden Retriever",
-    img: breedLab,
+    img: breedGoldenFixed,
     desc: "Affectionate, intelligent, and loyal — the perfect family companion.",
   },
   {
@@ -531,6 +533,11 @@ const puppies = [
     breed: "Cocker Spaniel",
     img: puppy4,
     desc: "Sweet, gentle, and eager to please — wonderful with families.",
+  },
+  {
+    breed: "Maltipoo",
+    img: breedMaltipoo,
+    desc: "Hypoallergenic, loving, and super intelligent — a joyful companion.",
   },
 ];
 
@@ -603,7 +610,7 @@ function FeaturedPuppies() {
 /* -------------------------------- Breeds ---------------------------------- */
 
 const breeds = [
-  { name: "Golden Retriever", img: breedLab, desc: "Friendly, intelligent, devoted family companions." },
+  { name: "Golden Retriever", img: breedGoldenFixed, desc: "Friendly, intelligent, devoted family companions." },
   { name: "Labrador", img: breedGolden, desc: "Outgoing, even-tempered, and gentle with kids." },
   { name: "German Shepherd", img: breedShepherd, desc: "Confident, courageous and incredibly loyal." },
   { name: "Shih Tzu", img: breedShihtzu, desc: "Affectionate lap dog — perfect for apartments." },
@@ -611,6 +618,7 @@ const breeds = [
   { name: "Beagle", img: breedBeagle, desc: "Curious, friendly, and excellent with families." },
   { name: "Siberian Husky", img: breedHusky, desc: "Energetic, social, and strikingly beautiful." },
   { name: "Pomeranian", img: breedPom, desc: "Tiny, fluffy, and bursting with confidence." },
+  { name: "Maltipoo", img: breedMaltipoo, desc: "Playful, hypoallergenic, and extremely affectionate." },
 ];
 
 function Breeds() {
