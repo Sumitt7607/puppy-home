@@ -70,9 +70,9 @@ import testimonial8 from "@/assets/testimonial-8.jpg";
 import testimonial9 from "@/assets/testimonial-9.jpg";
 import testimonial10 from "@/assets/testimonial-10.jpg";
 
-const PHONE = "+91 92051 22992";
-const PHONE_TEL = "+919205122992";
-const WHATSAPP = "https://wa.me/919205122992";
+const PHONE = "+91 93111 31742";
+const PHONE_TEL = "+919311131742";
+const WHATSAPP = "https://wa.me/919311131742";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -87,7 +87,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Healthy, vaccinated, playful puppies raised with love. Trusted puppy provider in Delhi NCR. WhatsApp +91 92051 22992.",
+          "Healthy, vaccinated, playful puppies raised with love. Trusted puppy provider in Delhi NCR. WhatsApp +91 93111 31742.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -1143,7 +1143,7 @@ const faqs = [
   { q: "Do you offer home delivery?", a: "Absolutely. We provide safe, comfortable home delivery across all of Delhi NCR — Delhi, Gurgaon, Noida, Ghaziabad and Faridabad." },
   { q: "Can I visit before booking?", a: "Of course! You're welcome to visit, meet the puppies and our team before making any decision. Just book a time via WhatsApp." },
   { q: "What documents are provided?", a: "Every puppy comes with vaccination records, deworming history, a diet chart, breed information and ongoing support." },
-  { q: "How do I reserve a puppy?", a: "Reach us on WhatsApp at +91 92051 22992 or call us. A small booking amount confirms your puppy until delivery." },
+  { q: "How do I reserve a puppy?", a: "Reach us on WhatsApp at +91 93111 31742 or call us. A small booking amount confirms your puppy until delivery." },
 ];
 
 function FAQ() {
