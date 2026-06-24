@@ -474,12 +474,12 @@ function FloatingPaws() {
 const puppies = [
   {
     breed: "Golden Retriever",
-    img: breedGolden,
+    img: breedLab,
     desc: "Affectionate, intelligent, and loyal — the perfect family companion.",
   },
   {
-    breed: "Labrador Retriever",
-    img: breedLab,
+    breed: "Labrador",
+    img: breedGolden,
     desc: "Outgoing, playful, and gentle — excellent with children.",
   },
   {
@@ -603,8 +603,8 @@ function FeaturedPuppies() {
 /* -------------------------------- Breeds ---------------------------------- */
 
 const breeds = [
-  { name: "Golden Retriever", img: breedGolden, desc: "Friendly, intelligent, devoted family companions." },
-  { name: "Labrador Retriever", img: breedLab, desc: "Outgoing, even-tempered, and gentle with kids." },
+  { name: "Golden Retriever", img: breedLab, desc: "Friendly, intelligent, devoted family companions." },
+  { name: "Labrador", img: breedGolden, desc: "Outgoing, even-tempered, and gentle with kids." },
   { name: "German Shepherd", img: breedShepherd, desc: "Confident, courageous and incredibly loyal." },
   { name: "Shih Tzu", img: breedShihtzu, desc: "Affectionate lap dog — perfect for apartments." },
   { name: "Pug", img: breedPug, desc: "Charming, mischievous, and full of personality." },
