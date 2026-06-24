@@ -1259,6 +1259,12 @@ function Contact() {
             />
             <ContactCard
               icon={MapPin}
+              title="Head Office"
+              value="Sector 56, Gurgaon, Haryana"
+              tint="gold"
+            />
+            <ContactCard
+              icon={MapPin}
               title="Service Area"
               value="Delhi NCR — Delhi, Gurgaon, Noida, Ghaziabad, Faridabad"
               tint="sky"
@@ -1437,8 +1443,12 @@ function Footer() {
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4" /> {PHONE}
               </li>
-              <li className="flex items-center gap-2">
-                <MapPin className="h-4 w-4" /> Delhi NCR
+              <li className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-0.5" />
+                <div>
+                  <div className="font-semibold text-white">Head Office:</div>
+                  Sector 56, Gurgaon, Haryana
+                </div>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" /> hello@thepuppyhouse.in
