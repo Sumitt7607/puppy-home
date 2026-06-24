@@ -57,6 +57,7 @@ import testimonial2 from "@/assets/testimonial-2.jpg";
 import testimonial3 from "@/assets/testimonial-3.jpg";
 import testimonial4 from "@/assets/testimonial-4.jpg";
 import testimonial5 from "@/assets/testimonial-5.jpg";
+import testimonial6 from "@/assets/testimonial-6.jpg";
 
 const PHONE = "+91 92051 22992";
 const PHONE_TEL = "+919205122992";
@@ -785,6 +786,13 @@ const testimonials = [
     image: testimonial5,
     rating: 5,
     text: "Our Beagle puppy is so friendly and intelligent. The vaccine tracker, diet chart, and constant video updates of the puppy before delivery built complete trust.",
+  },
+  {
+    name: "The Mehta Family",
+    location: "Rohini, Delhi",
+    image: testimonial6,
+    rating: 5,
+    text: "We got our adorable little Dachshund from The Puppy House and the entire experience was seamless. The puppy arrived healthy, well-fed, and already socialised. Our whole family is in love!",
   },
 ];
 
