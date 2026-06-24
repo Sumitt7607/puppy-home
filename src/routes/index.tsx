@@ -48,6 +48,10 @@ import breedTibetanMastiff from "@/assets/breed-tibetan-mastiff.png";
 import breedBichonFrise from "@/assets/breed-bichon-frise.png";
 import breedToyPoodle from "@/assets/breed-toy-poodle.png";
 import breedMaltese from "@/assets/breed-maltese.png";
+import breedFrenchBulldog from "@/assets/breed-french-bulldog.png";
+import breedDachshund from "@/assets/breed-dachshund.jpg";
+import breedCockerSpaniel from "@/assets/breed-cocker-spaniel.jpg";
+import breedLabradorNew from "@/assets/breed-labrador-new.jpg";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
@@ -490,7 +494,7 @@ const puppies = [
   },
   {
     breed: "Labrador",
-    img: breedGolden,
+    img: breedLabradorNew,
     desc: "Outgoing, playful, and gentle — excellent with children.",
   },
   {
@@ -525,7 +529,7 @@ const puppies = [
   },
   {
     breed: "French Bulldog",
-    img: puppy1,
+    img: breedFrenchBulldog,
     desc: "Playful, adaptable, and low-maintenance — ideal for city living.",
   },
   {
@@ -535,12 +539,12 @@ const puppies = [
   },
   {
     breed: "Dachshund",
-    img: puppy3,
+    img: breedDachshund,
     desc: "Clever, curious, and spunky — a bold little dog with a big heart.",
   },
   {
     breed: "Cocker Spaniel",
-    img: puppy4,
+    img: breedCockerSpaniel,
     desc: "Sweet, gentle, and eager to please — wonderful with families.",
   },
   {
