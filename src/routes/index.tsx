@@ -44,6 +44,10 @@ import breedHusky from "@/assets/breed-husky.jpg";
 import breedPom from "@/assets/breed-pomeranian.jpg";
 import breedMaltipoo from "@/assets/breed-maltipoo.png";
 import breedGoldenFixed from "@/assets/breed-golden-fixed.png";
+import breedTibetanMastiff from "@/assets/breed-tibetan-mastiff.png";
+import breedBichonFrise from "@/assets/breed-bichon-frise.png";
+import breedToyPoodle from "@/assets/breed-toy-poodle.png";
+import breedMaltese from "@/assets/breed-maltese.png";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
@@ -521,7 +525,7 @@ const puppies = [
   },
   {
     breed: "Maltese",
-    img: puppy2,
+    img: breedMaltese,
     desc: "Gentle, trusting, and devoted — a glamorous yet friendly companion.",
   },
   {
@@ -538,6 +542,21 @@ const puppies = [
     breed: "Maltipoo",
     img: breedMaltipoo,
     desc: "Hypoallergenic, loving, and super intelligent — a joyful companion.",
+  },
+  {
+    breed: "Tibetan Mastiff",
+    img: breedTibetanMastiff,
+    desc: "Majestic, loyal, and powerful — a noble guardian breed with a lion-like mane.",
+  },
+  {
+    breed: "Bichon Frisé",
+    img: breedBichonFrise,
+    desc: "Cheerful, gentle, and hypoallergenic — a fluffy cloud of joy and affection.",
+  },
+  {
+    breed: "Toy Poodle",
+    img: breedToyPoodle,
+    desc: "Brilliant, elegant, and hypoallergenic — one of the most intelligent breeds.",
   },
 ];
 
